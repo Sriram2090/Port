@@ -13,7 +13,7 @@
     left: 0;
     width: 100%;
     padding: 35px 12%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(241,241,241);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -22,8 +22,8 @@
 }
 
 .logo {
-    font-size: 25px;
-    color: white;
+    font-size: 40px;
+    color: rgb(6, 6, 6);
     font-weight: 600;
     transition: 0.3s ease;
 }
@@ -40,11 +40,12 @@ span {
 
 .navbar a {
     font-size: 18px;
-    color: white;
+    color: rgb(7, 7, 7);
     font-weight: 500;
     margin: 0 20px;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar a:hover,
@@ -54,8 +55,8 @@ span {
 
 .contact {
     padding: 10px 28px;
-    background-color: white;
-    color: black;
+    background-color: rgb(14, 14, 14);
+    color: rgb(252, 251, 251);
     border: 2px solid transparent;
     border-radius: 8px;
     font-size: 16px;
@@ -83,7 +84,10 @@ span {
 
 .home-content {
     max-width: 800px;
-    text-align: center; /* Center text for smaller screens */
+    text-align: center; 
+}
+.home-content h3{
+    font-size: 48px;
 }
 
 .home-content h1 {
@@ -115,9 +119,9 @@ span {
 }
 
 .btn:hover {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: white;
 }
 
 .img-box img {
